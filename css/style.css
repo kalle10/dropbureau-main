@@ -345,6 +345,12 @@ img {
 .contacts-section__img {
   right: -30%;
 }
+.contacts-section_img img {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 .contacts-section__text {
   padding-top: 2rem;
