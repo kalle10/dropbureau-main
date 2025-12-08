@@ -62,7 +62,7 @@ img {
 .main-section::before {
   content: '';
   position: absolute;
-  top: 53%;
+  top: 33%;
   right: 15%;
   width: 420px;
   height: 420px;
