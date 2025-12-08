@@ -361,9 +361,10 @@ img {
   font-family: 'Playfair Display';
 }
 /*OVERRIDE contact image size */
-.contacts-section_img img {
+img[src$=bg.png] {
   height: 220px !important;
   width: auto !important;
   object-fit: cover !important;
+  display: block;
 }
 }
