@@ -344,15 +344,14 @@ img {
 }
 .contacts-section__img {
   position: relative;
-  max-height: 260px;
+  height: 200px;
   overflow: hidden;
   margin-left: auto;
 }
 .contacts-section_img img {
-  height: auto;
+  height: 200px;
   width: auto;
   object-fit: cover;
-  display: block;
 }
 
 .contacts-section__text {
