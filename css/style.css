@@ -62,12 +62,13 @@ img {
 .main-section::before {
   content: '';
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 110%;
+  top: 10;
+  right: 5;
+  width: 300px;
+  height: 300px;
   background: url('../img/ariaslogo.PNG') 0 0 /cover no-repeat;
   z-index: -1;
+  opacity: 0.15;
 }
 
 .main-section__content {
